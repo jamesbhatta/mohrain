@@ -1,3 +1,12 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+    .container {
+        @apply mx-auto px-4;
+    }
+    .section-heading {
+        @apply text-xl md:text-3xl xl:text-4xl font-rubik font-bold tracking-wide leading-8 mt-2 mb-4;
+    }
+}
