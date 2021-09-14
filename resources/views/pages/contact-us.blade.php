@@ -49,7 +49,10 @@
                         <input type="text" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Full Name *">
                     </div>
                     <div class="my-5">
-                        <input type="text" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Email *">
+                        <input type="number" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Contact Number *">
+                    </div>
+                    <div class="my-5">
+                        <input type="text" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Email (optional)">
                     </div>
                     <div class="my-5">
                         <textarea class="w-full py-3 px-5 border-gray-200 rounded-2xl" rows="5" placeholder="Message *"></textarea>

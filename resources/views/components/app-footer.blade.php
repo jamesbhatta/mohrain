@@ -32,7 +32,7 @@
                     <li><strong class="font-normal text-blue-200 pr-1">Address:</strong> Kailalipool, Dhangadhi, Kailali Nepal</li>
                     <li><strong class="font-normal text-blue-200 pr-1">Email:</strong> info@mohrain.com</li>
                     <li><strong class="font-normal text-blue-200 pr-1">Phone:</strong> +977 9858427288</li>
-                    <li><strong class="font-normal text-blue-200 pr-1">Open:</strong> Sun to Fri 10:00 AM – 06:00 PM</li>
+                    <li><strong class="font-normal text-blue-200 pr-1">Open:</strong> Sun to Fri 09:00 AM – 06:00 PM</li>
                 </ul>
             </div>
         </div>
