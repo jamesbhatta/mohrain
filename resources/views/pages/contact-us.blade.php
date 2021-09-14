@@ -41,27 +41,7 @@
             </div>
             <div class="col-span-12 md:col-span-6">
 
-                <form class="md:pl-16 py-5 md:py-12">
-                    <div class="text-gray-500 uppercase font-rubik font-bold tracking-wider"><div class="inline-block h-2 w-2 bg-gray-500 rounded-full mr-2"></div>Get In Touch</div>
-                    <h2 class="text-xl md:text-3xl font-rubik font-bold tracking-wider my-3">Ready to get started?</h2>
-
-                    <div class="my-5">
-                        <input type="text" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Full Name *">
-                    </div>
-                    <div class="my-5">
-                        <input type="number" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Contact Number *">
-                    </div>
-                    <div class="my-5">
-                        <input type="text" class="w-full py-3 px-5 border-gray-200 rounded-full" placeholder="Your Email (optional)">
-                    </div>
-                    <div class="my-5">
-                        <textarea class="w-full py-3 px-5 border-gray-200 rounded-2xl" rows="5" placeholder="Message *"></textarea>
-                    </div>
-                    <div class="my-5">
-                        <button class="bg-blue-500 text-gray-50 py-3 px-6 rounded-full font-rubik font-bold tracking-wide">Send Message</button>
-                    </div>
-
-                </form>
+               <livewire:contact-form />
 
             </div>
         </div>
