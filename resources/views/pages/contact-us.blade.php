@@ -34,6 +34,7 @@
                         <div class="info-text">
                             <h6 class="uppercase font-rubik text-sm">Our phones:</h6>
                             <p class="text-lg font-bold"><a href="tel:9858427288">+977 9858427288</a></p>
+                            <p class="text-lg font-bold"><a href="tel:091524243">+977 091-524243</a></p>
                         </div>
                     </div>
                 </div>
