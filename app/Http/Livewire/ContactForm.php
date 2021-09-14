@@ -25,10 +25,10 @@ class ContactForm extends Component
 
     public function send()
     {
+        $this->messageSendError = null;
         $this->validate();
 
         try {
-            $this->messageSendError = null;
             ContactUs::create([
                 'name' => $this->name,
                 'email' => $this->email,
