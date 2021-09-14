@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    @livewireStyles
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -52,6 +53,7 @@
         <x-app-footer></x-app-footer>
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    @livewireScripts
     @stack('scripts')
 
 </body>
