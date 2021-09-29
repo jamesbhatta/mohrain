@@ -22,4 +22,10 @@ class PageController extends Controller
     {
         return view('pages.about-us');
     }
+
+    public function ourTeam()
+    {
+        $teams = \App\Models\Team::positioned()->get();
+        return view('pages.our-team', compact('teams'));
+    }
 }

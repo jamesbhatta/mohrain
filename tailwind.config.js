@@ -12,7 +12,7 @@ module.exports = {
             fontFamily: {
                 sans: ["Nunito", ...defaultTheme.fontFamily.sans],
                 rubik: ["Rubik", ...defaultTheme.fontFamily.sans],
-                'red-hat': ["Red Hat Display", ...defaultTheme.fontFamily.sans],
+                "red-hat": ["Red Hat Display", ...defaultTheme.fontFamily.sans],
             },
             colors: {
                 primary: "#80aa2f",
@@ -24,9 +24,12 @@ module.exports = {
     variants: {
         extend: {
             opacity: ["disabled"],
-            filter: ['hover', 'focus'],
+            filter: ["hover", "focus"],
         },
     },
 
-    plugins: [require("@tailwindcss/forms")],
+    plugins: [
+        require("@tailwindcss/forms"),
+        require("@tailwindcss/aspect-ratio")
+    ],
 };

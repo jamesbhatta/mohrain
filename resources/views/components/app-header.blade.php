@@ -51,8 +51,11 @@
                     <li>
                         <a href="/" class="hover:text-primary transition-colors">Our Services</a>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="/" class="hover:text-primary transition-colors">Our Work</a>
+                    </li> --}}
+                    <li>
+                        <a href="/our-team" class="hover:text-primary transition-colors">Our Team</a>
                     </li>
                     <li>
                         <a href="/about-us" class="hover:text-primary transition-colors">About Us</a>

@@ -1,0 +1,23 @@
+/* Section Card */
+.section__card {
+    @apply bg-white border p-5 rounded;
+}
+
+/* Section title */
+.section-title {
+    @apply text-lg text-gray-600 tracking-wide;
+    font-family: sans-serif;
+}
+
+.job-overview-list {
+    @apply text-gray-500 my-5;
+}
+.job-overview-list li {
+    @apply flex items-center space-x-3 py-2;
+}
+.job-overview-list li >div:first-of-type {
+    @apply font-semibold;
+}
+.job-overview-list li >div:last-of-type {
+    @apply flex-grow text-right;
+}

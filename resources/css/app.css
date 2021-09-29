@@ -1,5 +1,10 @@
 @import "tailwindcss/base";
+
 @import "tailwindcss/components";
+@import 'buttons';
+@import 'form';
+@import 'components';
+
 @import "tailwindcss/utilities";
 
 @layer base {
@@ -8,5 +13,9 @@
     }
     .section-heading {
         @apply text-xl md:text-3xl xl:text-4xl font-rubik font-bold tracking-wide leading-8 mt-2 mb-4;
+    }
+
+    .backend-page-heading {
+        @apply text-xl font-rubik tracking-wide leading-8 mb-4;
     }
 }
