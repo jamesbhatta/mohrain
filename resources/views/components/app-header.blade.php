@@ -49,7 +49,7 @@
             <nav class="ml-auto">
                 <ul class="flex space-x-3 lg:space-x-5 items-center justify-around uppercase font-rubik tracking-wide">
                     <li>
-                        <a href="/" class="hover:text-primary transition-colors">Our Services</a>
+                        <a href="{{ url('/') }}/#our-services" class="hover:text-primary transition-colors">Our Services</a>
                     </li>
                     {{-- <li>
                         <a href="/" class="hover:text-primary transition-colors">Our Work</a>

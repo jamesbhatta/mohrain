@@ -38,7 +38,7 @@
     </div>
 
     <!-- Our services -->
-    <div class="container mx-auto py-5" style="background-image: url(https://onum-wp.s3.amazonaws.com/images/bg-shape1-home5.png);
+    <div id="our-services" class="container mx-auto py-5" style="background-image: url(https://onum-wp.s3.amazonaws.com/images/bg-shape1-home5.png);
     background-position: bottom right;
     background-repeat: no-repeat;">
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
