@@ -53,6 +53,14 @@
             {{ $slot }}
         </main>
     </div>
+
+    <script>
+        function handleUploadPreview() {
+            document.getElementById(event.target.dataset.previewElId).src = URL.createObjectURL(event.target.files[0]);
+        }
+
+    </script>
+
     @stack('scripts')
 </body>
 </html>
