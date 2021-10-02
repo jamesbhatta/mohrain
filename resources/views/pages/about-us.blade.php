@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="py-10 md:pt-16 pb-32" style="background-color: #eef2ff; background-image: url(https://onum-wp.s3.amazonaws.com/images/bg-service2-1.png);
+    <div class="py-10 md:pt-16 md:pb-32" style="background-color: #eef2ff; background-image: url(https://onum-wp.s3.amazonaws.com/images/bg-service2-1.png);
     background-position: bottom right;
     background-repeat: no-repeat;">
         {{-- <div class="dot-grid absolute bottom-0 left-0 z-10 w-16 h-16 md:w-40"></div> --}}
@@ -24,8 +24,8 @@
         </div>
     </div>
 
-    <section class="container md:-mt-16">
-        <div class="grid grid-cols-3 gap-6">
+    <section class="container mt-5 md:-mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             {{-- Card One --}}
             <div class="rounded-xl bg-white custom-shadow p-5 flex items-center gap-5" style="background-image: url(https://onum-wp.s3.amazonaws.com/images/bg-service1-1.png);
             background-position: top right;
