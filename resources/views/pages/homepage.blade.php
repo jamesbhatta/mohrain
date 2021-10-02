@@ -1,5 +1,5 @@
 <x-app-layout>
-    <div class="max-w-screen-xl mx-auto">
+    <div class="container">
         <div class="grid grid-cols-12 gap-5">
             <div class="col-span-12 md:col-span-5 py-16 flex items-center">
                 <div>
@@ -53,5 +53,27 @@
             <?php endforeach; ?>
         </div>
     </div>
+
+    <section x-data="{ show: false }" x-init="() => setTimeout(() => show = true, 2000)">
+        <div x-show="show" class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-black bg-opacity-10 z-50" x-transition:enter-start="opacity-0 scale-90" 
+        x-transition:enter="transition duration-200 transform ease"
+        x-transition:leave="transition duration-200 transform ease"
+        x-transition:leave-end="opacity-0 scale-90"  @click.self="show = false">
+            <div class="p-5 overflow-hidden relative">
+                <img class="rounded" src="/images/dashain-offer-2078-min.png" alt="Dashain offer 2078">
+                <div class="absolute top-0 right-2">
+                    <button class="text-black bg-white rounded-full hover:bg-opacity-70" @click="show = false">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        * {
+            /* border: 1px solid red; */
+        }
+    </style>
 
 </x-app-layout>

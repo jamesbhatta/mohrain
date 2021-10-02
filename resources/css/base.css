@@ -1,0 +1,17 @@
+
+@layer base {
+    .container {
+        @apply mx-auto px-4;
+    }
+    .section-heading {
+        @apply text-xl md:text-3xl xl:text-4xl font-rubik font-bold tracking-wide leading-8 mt-2 mb-4;
+    }
+
+    .backend-page-heading {
+        @apply text-xl font-rubik tracking-wide leading-8 mb-4;
+    }
+
+    [x-cloak] {
+        display: none;
+    }
+}
