@@ -45,28 +45,8 @@
             <div>
                 <a href="/"><img class="h-20 w-auto" src="{{ $logoUrl }}" alt="Mohrain WebSoft Pvt. Ltd."></a>
             </div>
-            <nav class="ml-auto">
-                <ul class="flex space-x-3 lg:space-x-5 items-center justify-around uppercase font-rubik tracking-wide">
-                    <li>
-                        <a href="{{ url('/') }}/#our-services" class="hover:text-primary transition-colors">Our Services</a>
-                    </li>
-                    {{-- <li>
-                        <a href="/" class="hover:text-primary transition-colors">Our Work</a>
-                    </li> --}}
-                    <li>
-                        <a href="/our-team" class="hover:text-primary transition-colors">Our Team</a>
-                    </li>
-                    <li>
-                        <a href="/about-us" class="hover:text-primary transition-colors">About Us</a>
-                    </li>
-                    {{-- <li>
-                        <a href="/" class="hover:text-primary transition-colors">Contact Us</a>
-                    </li> --}}
-                    <li>
-                        <a href="/contact-us" class="bg-primary py-3 px-4 text-gray-50 rounded-full shadow-lg hover:opacity-90 transition-colors">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
+            <x-desktop-menu  class="ml-auto hidden md:flex"></x-desktop-menu>
+            <x-hamburger-menu class="ml-auto flex md:hidden"></x-hamburger-menu>
         </div>
     </header>
 </div>
