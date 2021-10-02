@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <section x-data="{ show: false }" x-init="() => setTimeout(() => show = true, 2000)">
+    <section x-data="{ show: false }" x-init="() => setTimeout(() => show = true, 2000)" x-cloak>
         <div x-show="show" class="fixed top-0 left-0 w-screen h-screen flex items-center justify-center bg-black bg-opacity-10 z-50" x-transition:enter-start="opacity-0 scale-90" 
         x-transition:enter="transition duration-200 transform ease"
         x-transition:leave="transition duration-200 transform ease"
